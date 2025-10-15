@@ -1,0 +1,6 @@
+cd path/to/hospital-frontend
+git remote remove origin
+git remote add origin https://github.com/YOUR_USERNAME/hospital-frontend.git
+git add .
+git commit -m "Initial commit for frontend"
+git push -u origin main
