@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  backend:
+    image: hospital-backend
+    build:
+      context: ./hospital-backend
+    ports:
+      - "8081:8080"
+  frontend:
+    image: hospital-frontend
+    build:
+      context: ./hospital-frontend
+    ports:
+      - "5173:80"
